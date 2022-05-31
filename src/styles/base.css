@@ -1,5 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: var(--s);
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* instead of a straight jump, smoothly animate the scroll position */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
-  /* font-family: "IMBPlexSans", "IBMPlexSerif"; */
+  font-family: "Amatic SC", cursive;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Satisfy", cursive;
   background-color: var(--lightestBlue);
   color: var(--darkest);
+}
+
+h1 {
+  font-size: var(--l);
+}
+
+section {
+  margin-top: var(--m);
+}
+
+section > h2,
+section > h3 {
+  text-align: center;
+  color: var(--lightestBlue);
+}
+
+section > h2 {
+  margin-bottom: var(--s);
+}
+
+.text-light {
+  color: var(--lighterer);
+}
+
+a {
+  color: var(--darkBlue);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--lightBlue);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--darkBlue);
+  padding: var(--s) var(--m);
+  border-radius: var(--xxs);
+  cursor: pointer;
+  border: var(--xs) solid var(--darkBlue);
+  transition: var(--transition);
+}
+
+btn:hover {
+  background: var(--lightestBlue);
+  color: var(--lightBlue);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: var(--tablet)) {
+  .container {
+    width: var(--container-width-m);
+  }
+
+  section {
+    margin-top: var(--m);
+  }
+}
+
+@media screen and (max-width: var(--mobile)) {
+  .container {
+    width: var(--container-width-s);
+  }
+
+  section > h2 {
+    margin-top: var(--s);
+  }
 }
