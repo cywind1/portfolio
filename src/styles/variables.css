@@ -1,0 +1,19 @@
+:root {
+  --lightest: #ffffff;
+  --lighterer: #f0f0ef;
+  --lighter: #808687;
+  --lightestBlue: #bacfe3;
+  --lighterBlue: #73a9de;
+  --lightBlue: #6a9bcc;
+  --blue: #5982ab;
+  --darkest: #000000;
+  --bfs: 0.5rem;
+  --xxxs: calc(var(--bfs) * 0.5);
+  --xxs: calc(var(--bfs) * 1);
+  --xs: calc(var(--bfs) * 1.25);
+  --s: calc(var(--bfs) * 1.6);
+  --m: calc(var(--bfs) * 2);
+  --l: calc(var(--bfs) * 2.5);
+  --xl: calc(var(--bfs) * 3.15);
+  --xxl: calc(var(--bfs) * 4);
+}
