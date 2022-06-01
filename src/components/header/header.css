@@ -1,0 +1,30 @@
+header {
+  height: 100vh;
+  padding-top: var(--xxxl);
+  overflow: hidden;
+}
+
+.header_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.cta {
+  margin-top: var(--m);
+  display: flex;
+  justify-content: center;
+}
+
+.header_socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--xxs);
+}
+
+.scroll_down {
+  position: absolute;
+  right: 10%;
+  font-weight: 600;
+}

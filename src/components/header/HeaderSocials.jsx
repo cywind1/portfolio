@@ -5,8 +5,8 @@ import {SiGithub} from 'react-icons/si';
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href="https://linkedin.com" target='_blank'><SiLinkedin/></a>
-        <a href="https://github.com" target='_blank'><SiGithub/></a>        
+        <a href="https://linkedin.com"><SiLinkedin/></a>
+        <a href="https://github.com"><SiGithub/></a>        
     </div>
   )
 }

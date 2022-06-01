@@ -33,9 +33,7 @@ body {
 }
 
 h1,
-h2,
-.cta,
-.header_socials {
+h2 {
   padding: 0;
 }
 
@@ -74,7 +72,7 @@ a {
 }
 
 a:hover {
-  color: var(--lightBlue);
+  color: var(--lighterBlue);
 }
 
 .btn {
