@@ -3,7 +3,7 @@ import "./accessibility.css";
 
 const Accessibility = () => {
   return (
-    <div>Accessibility</div>
+        <section id='accessibility'>Accessibility</section>
   )
 }
 
