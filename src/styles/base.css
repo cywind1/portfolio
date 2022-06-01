@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans&family=Quicksand:wght@300;400;500;600;700&family=Satisfy&display=swap");
 
 * {
   margin: 0;
-  padding: var(--s);
   border: 0;
   outline: 0;
   box-sizing: border-box;
@@ -23,12 +22,32 @@ body {
   font-family: "Amatic SC", cursive;
   font-family: "Open Sans", sans-serif;
   font-family: "Satisfy", cursive;
+  font-family: "Quicksand", sans-serif;
   background-color: var(--lightestBlue);
   color: var(--darkest);
 }
 
+.container {
+  width: var(--container-width-l);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+.cta,
+.header_socials {
+  padding: 0;
+}
+
 h1 {
-  font-size: var(--l);
+  font-size: var(--xl);
+  padding-top: var(--xxs);
+}
+
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
 }
 
 section {
@@ -46,7 +65,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--lighterer);
+  color: var(--lightBlue);
 }
 
 a {
@@ -59,19 +78,19 @@ a:hover {
 }
 
 .btn {
+  background-color: var(--darkBlue);
   width: max-content;
   display: inline-block;
-  color: var(--darkBlue);
-  padding: var(--s) var(--m);
+  color: var(--lightestBlue);
+  padding: var(--xxs) var(--s);
   border-radius: var(--xxs);
   cursor: pointer;
-  border: var(--xs) solid var(--darkBlue);
   transition: var(--transition);
 }
 
 btn:hover {
-  background: var(--lightestBlue);
-  color: var(--lightBlue);
+  background-color: var(--lightestBlue);
+  color: var(--darkBlue);
 }
 
 img {

@@ -10,7 +10,7 @@
   --darkerBlue: #0b1340;
   --darkest: #000000;
 
-  --bfs: 0.5rem;
+  --bfs: 1rem;
   --xxxs: calc(var(--bfs) * 0.5);
   --xxs: calc(var(--bfs) * 1);
   --xs: calc(var(--bfs) * 1.25);
