@@ -28,3 +28,21 @@ header {
   right: 10%;
   font-weight: 600;
 }
+
+/* TODO: unwork */
+
+@media screen and (max-width: var(--tablet)) {
+  header {
+    height: 150vh;
+  }
+}
+
+@media screen and (max-width: var(--mobile)) {
+  header {
+    height: 150vh;
+  }
+  .header_socials,
+  .scroll_down {
+    display: none;
+  }
+}
