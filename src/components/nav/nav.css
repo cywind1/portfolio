@@ -1,0 +1,25 @@
+nav {
+  position: sticky;
+  top: 0;
+  float: right;
+  background: var(--lighterBlue);
+  width: max-content;
+  /* position: fixed; */
+  -webkit-transform: translateZ(0);
+  padding: var(--xxxs);
+  border-radius: var(--xxxs);
+  backdrop-filter: blur(var(--m));
+}
+
+nav a {
+  padding: var(--xxxs);
+}
+
+nav a:hover {
+  background: var(--lighterer);
+}
+
+nav a.active {
+  background: var(--lighter);
+  border-radius: var(--xxxs);
+}

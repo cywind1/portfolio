@@ -50,6 +50,7 @@ h1 {
 
 section {
   margin-top: var(--m);
+  min-height: 100vh;
 }
 
 section > h2,
