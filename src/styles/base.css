@@ -53,7 +53,8 @@ section {
   min-height: 100vh;
 }
 
-section > h2 {
+section > h2,
+section > h3 {
   padding-top: var(--xl);
   text-align: center;
   color: var(--lighter);
@@ -64,7 +65,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--lightBlue);
+  color: var(--lighter);
 }
 
 a {
