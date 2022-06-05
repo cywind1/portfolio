@@ -65,7 +65,7 @@ section > h2 {
 }
 
 .text-light {
-  color: var(--lighter);
+  color: var(--lightest);
 }
 
 a {

@@ -7,8 +7,8 @@
 
 .about_me {
   margin-top: 0;
-  margin-left: 10px;
-  padding: 20px;
+  margin-left: 2px;
+  padding: 15px;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--darkBlue), transparent);
@@ -45,22 +45,16 @@
   background: var(--lighterer);
 }
 
-/* TODO: unwork */
+/* TODO: unwork, always red */
 
-@media screen and (max-width: var(--tablet)) {
-  .about_container {
-    grid-template-rows: 1fr;
-    gap: 0;
-  }
-
+@media screen and (min-device-width: 1200px) {
   .about_me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-}
-
-@media screen and (max-width: var(--mobile)) {
-  .about_me {
-    margin: 0 auto 3rem;
+    margin-top: 0;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, red, transparent);
+    display: grid;
+    place-items: center;
   }
 }

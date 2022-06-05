@@ -10,6 +10,9 @@ header {
   position: relative;
 }
 
+h2 {
+  color: var(--lightBlue);
+}
 .cta {
   margin-top: var(--m);
   display: flex;
