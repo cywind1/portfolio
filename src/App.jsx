@@ -8,6 +8,7 @@ import Experience from "./components/experience/Experience";
 import Accessibility from "./components/accessibility/Accessibility";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Projects from './components/projects/Projects';
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <About/>
         <Experience/>
         <Accessibility/>
+        <Projects/>
         <Contact/>
         <Footer/>
     </>

@@ -5,6 +5,7 @@ import {FcAbout} from 'react-icons/fc';
 import {MdWork} from 'react-icons/md';
 import {MdOutlineAccessibility} from 'react-icons/md';
 import {MdOutlineContactMail} from 'react-icons/md';
+import {GrProjects} from 'react-icons/gr';
 import {useState} from 'react';
 
 const Nav = () => {
@@ -15,6 +16,7 @@ const Nav = () => {
       <a href='#about' onClick={() => setActiveNav('#about')} className={ activeNav === '#about'?'active':''} ><FcAbout/></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={ activeNav === '#experience'?'active':''}><MdWork/></a>
       <a href='#accessibility' onClick={() => setActiveNav('#accessibility')} className={ activeNav === '#accessibility'?'active':''}><MdOutlineAccessibility/></a>
+      <a href='#projects' onClick={() => setActiveNav('#projects')} className={ activeNav === '#projects'?'active':''}><GrProjects/></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={ activeNav === '#contact'?'active':''}><MdOutlineContactMail/></a>
     </nav>
   )
