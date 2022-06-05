@@ -1,0 +1,41 @@
+.acc-container {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 3rem;
+}
+
+.accessibility {
+  background: var(--darkerBlue);
+  color: var(--lighterer);
+  border: 1px solid var(--ligherer);
+  height: fit-content;
+  transition: var(--transition);
+}
+
+.accessibility:hover {
+  background: transparent;
+  color: var(--darkBlue);
+  border: 1px solid var(--blue);
+  cursor: default;
+}
+
+.acc-list {
+  margin: 2rem;
+}
+
+.acc-head > h3 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.acc-list li {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.acc-list-icon {
+  margin-top: 0.3rem;
+}
+
+/* TODO: reponsive */
