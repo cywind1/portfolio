@@ -8,35 +8,32 @@ const Projects = () => {
   return (
     <section id='projects'>
           <h2>Projects</h2> 
-           <div className='container pro-container'>
-          <article className='pro-item'>
+           <ul className='container pro-container'>
+          <li className='pro-card'>
         <div className='pro-item-image'> 
-        <img src={projectImg1} alt='Screen Design Project'/>
+        <img src={projectImg1} alt=''/>
         </div>
         <h3> Screen Design Project </h3>
             <a href='https://th-koeln.github.io/mi-bachelor-screendesign-projekte/sd-2020/chan-neubert-selim/' target='_blank'> Github Link</a>
-          </article>
+          </li>
 
-          <article className='pro-item'>
+ <li className='pro-card'>
         <div className='pro-item-image'> 
-        <img src={projectImg2} alt='Internet of Things Project'/>
+        <img src={projectImg2} alt=''/>
         </div>
         <h3> Internet of Things Project </h3>
             <a href='https://github.com/aselim21/easygreeneryweb/' target='_blank'> Github Link</a>
-          </article>
+          </li>
 
- <article className='pro-item'>
-        <div className='pro-item-image'> 
-        <img src={projectImg3} alt='Web Service Project'/>
+<li className='pro-card'>
+         <div className='pro-item-image'> 
+        <img src={projectImg3} alt=''/>
         </div>
         <h3> Web Service Project </h3>
             <a href='https://enki-bookstore.herokuapp.com/' target='_blank'> Heroku Link</a>
-          </article>
-
-    </div>
+          </li>
+    </ul>
     </section>
-
-
   )
 }
 

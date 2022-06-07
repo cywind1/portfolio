@@ -1,0 +1,26 @@
+.pro-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--lighterer);
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 3rem;
+  transition: var(--transition);
+}
+/* 
+.pro-container {
+  padding: 0;
+  margin: var(--m);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(2rem), 2fr);
+}
+
+.pro-card {
+  width: 100%;
+  background-color: var(--lightest);
+  display: block;
+} */
+
+img {
+  height: 300px;
+}
