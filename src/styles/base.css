@@ -57,7 +57,7 @@ section > h2,
 section > h3 {
   padding-top: var(--xl);
   text-align: center;
-  color: var(--lighter);
+  color: var(--darkBlue);
 }
 
 section > h2 {

@@ -13,23 +13,23 @@ const Experience = () => {
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>HTML</h4>
-            <small className='text-light'> Advanced </small>
+            <small> Advanced </small>
           </article>
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>CSS</h4>
-            <small className='text-light'> Intermediate </small>
+            <small> Intermediate </small>
           </article>
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>JAVASCRIPT</h4>
-            <small className='text-light'> Beginner </small>
+            <small> Beginner </small>
           </article>
           
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>REACT</h4>
-            <small className='text-light'> Beginner </small>
+            <small> Beginner </small>
           </article>
         </div>
       </div>
@@ -40,17 +40,17 @@ const Experience = () => {
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>MONGO DB</h4>
-            <small className='text-light'> Intermediate </small>
+            <small> Intermediate </small>
           </article>
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>NODE JS</h4>
-            <small className='text-light'> Beginner </small>
+            <small> Beginner </small>
           </article>
           <article className='exp-details'>
             <BsPatchCheckFill/>
             <h4>MY SQL</h4>
-            <small className='text-light'> Beginner </small>
+            <small> Beginner </small>
           </article>
         </div>
    </div>
