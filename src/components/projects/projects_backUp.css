@@ -9,18 +9,15 @@
 } */
 
 .pro-container {
-  padding: var(--l);
-  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: var(--m);
 }
 
-/* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem; */
-
 .pro-card {
-  margin: 0;
-  background-color: var(--blue);
-  padding: 2rem;
+  background-color: var(--lightest);
+  padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid var(--ligherer);
   transition: var(--transition);
@@ -38,16 +35,6 @@
   text-align: center;
 }
 
-.pro-item-image {
-  height: 14rem;
-  aspect-ratio: 3/2;
-  overflow: hidden;
-}
-
 .pro-item-cta {
   text-align: center;
-}
-
-.pro-item-cta a {
-  color: var(--darkest);
 }

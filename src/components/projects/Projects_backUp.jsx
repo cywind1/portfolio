@@ -4,15 +4,6 @@ import projectImg1 from "../../assets/5.1_projects.jpg";
 import projectImg2 from "../../assets/5.2_projects.jpg";
 import projectImg3 from "../../assets/5.3_projects.jpg";
 
-// import Swiper core and required modules
-import { Pagination, A11y } from "swiper";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-
 const data = [
   {
     id: 1,
@@ -38,20 +29,10 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>Projects</h2>
-      <Swiper
-        className="container pro-container"
-        // install Swiper modules
-        modules={[Pagination, A11y]}
-        spaceBetween={50}
-        slidesPerView={1}
-        pagination={{ clickable: true }}
-        // TODO: autoplay speed
-        autoplay={5000}
-        speed={800}
-      >
+      <ul className="container pro-container">
         {data.map(({ id, image, title, demo }) => {
           return (
-            <SwiperSlide key={id} className="pro-card">
+            <li key={id} className="pro-card">
               <div className="pro-item-image">
                 <img src={image} alt={title} />
               </div>
@@ -61,10 +42,10 @@ const Projects = () => {
                   Project Link
                 </a>
               </div>
-            </SwiperSlide>
+            </li>
           );
         })}
-      </Swiper>
+      </ul>
     </section>
   );
 };
