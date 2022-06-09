@@ -42,7 +42,10 @@
 }
 
 .about_card:hover {
-  background: var(--lighterer);
+  background: transparent;
+  color: var(--darkBlue);
+  border: 1px solid var(--blue);
+  cursor: default;
 }
 
 /* TODO: unwork, always red */
