@@ -39,8 +39,10 @@ const Contact = () => {
             placeholder="Your Message"
             required
           />
-          <button type="reset"> Reset</button>
-          <button type="submit"> Submit</button>
+          <div className="contact-form-btn">
+            <button type="reset"> Reset</button>
+            <button type="submit"> Submit</button>
+          </div>
         </form>
       </div>
     </section>
