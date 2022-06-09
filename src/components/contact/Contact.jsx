@@ -8,17 +8,17 @@ const Contact = () => {
     <section id="contact">
       <h2>Contact</h2>
 
-      <div className="container contact_container">
-        <div className="contact_cards">
-          <div className="contact_card">
-            <AiOutlineMail />
+      <div className="container contact-container">
+        <div className="contact-cards">
+          <div className="contact-card">
+            <AiOutlineMail className="contact-icon" />
             <h3>Email</h3>
             <a href="mailto:ching_ying.chan@smail.th-koeln.de" target="_blank">
               ching_ying.chan@smail.th-koeln.de
             </a>
           </div>
-          <div className="contact_card">
-            <AiFillGithub />
+          <div className="contact-card">
+            <AiFillGithub className="contact-icon" />
             <h3>Github</h3>
             <a href="https://github.com/cywind1" target="_blank">
               https://github.com/cywind1
