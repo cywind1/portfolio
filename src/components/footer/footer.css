@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  height: 100px;
+  background-color: var(--darkerBlue);
+  color: var(--lightest);
+  /* horizontal */
+  justify-content: center;
+  /* vertical */
+  align-items: center;
+}
