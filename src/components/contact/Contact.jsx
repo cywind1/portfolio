@@ -51,13 +51,21 @@ const Contact = () => {
             type="text"
             name="name"
             placeholder="Your Full Name"
+            aria-label="name"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            aria-label="email"
+            required
+          />
           <textarea
             name="message"
             rows="7"
             placeholder="Your Message"
+            aria-label="message"
             required
           />
           <div className="contact-form-btn">

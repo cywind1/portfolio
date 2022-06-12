@@ -31,6 +31,9 @@
   margin-bottom: 0.5rem;
 }
 
+.contact-card a {
+  color: var(--darkest);
+}
 form {
   margin: 2rem;
   display: flex;
