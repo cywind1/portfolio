@@ -1,26 +1,24 @@
 .about_container {
-  display: grid;
-  grid-template-columns: 35% 50%;
+  /* display: grid; */
+  /* grid-template-columns: 35% 50%; */
   gap: 10%;
-  padding: 60px;
+  padding: 20px;
 }
 
 .about_me {
-  margin-top: 0;
-  margin-left: 2px;
   padding: 15px;
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--darkBlue), transparent);
-  display: grid;
-  place-items: center;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .img_about_me {
   border-radius: 2rem;
   overflow: hidden;
   max-width: 300px;
-  min-width: 150px;
   transform: rotate(10deg);
 }
 
@@ -48,7 +46,28 @@
   cursor: default;
 }
 
-/* TODO: unwork, always red */
+/* tablet */
+
+@media (min-width: 768px) {
+  .about_container {
+    display: flex;
+  }
+
+  .img_about_me {
+    min-width: 300px;
+  }
+
+  .about_me {
+    margin-left: 20px;
+    background: linear-gradient(45deg, transparent, red, transparent);
+  }
+
+  /* TODO: desktop space */
+  .about_cards {
+    grid-template-rows: 1fr auto;
+    margin-right: 20px;
+  }
+}
 /* 
 @media screen and (min-device-width: 1200px) {
   .about_me {

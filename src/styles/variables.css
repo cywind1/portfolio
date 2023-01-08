@@ -21,8 +21,8 @@
   --xxl: calc(var(--bfs) * 4);
   --xxxl: calc(var(--bfs) * 8);
 
-  --tablet: 1024px;
-  --mobile: 600px;
+  --desktop: 1025px;
+  --tablet: 768px;
 
   --container-width-s: var(--bfs) * 0.9;
   --container-width-m: var(--bfs) * 0.86;

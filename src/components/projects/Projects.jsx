@@ -30,7 +30,7 @@ const data = [
     id: 3,
     image: projectImg3,
     title: "Web Service Project",
-    demo: "https://enki-bookstore.herokuapp.com/",
+    demo: "https://github.com/cywind1/FDDW-products",
   },
 ];
 
