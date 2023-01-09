@@ -49,6 +49,9 @@
   height: 14rem;
   aspect-ratio: 3/2;
   overflow: hidden;
+  /* center the image */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pro-item-cta {
