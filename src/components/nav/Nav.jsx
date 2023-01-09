@@ -18,7 +18,7 @@ const Nav = () => {
         className={activeNav === "#" ? "active" : ""}
         aria-label="home icon"
       >
-        <MdHome />
+        <MdHome size={"2em"} />
       </a>
       <a
         href="#about"
@@ -26,7 +26,7 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
         aria-label="about icon"
       >
-        <FcAbout />
+        <FcAbout size={"2em"} />
       </a>
       <a
         href="#experience"
@@ -34,7 +34,7 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
         aria-label="work icon"
       >
-        <MdWork />
+        <MdWork size={"2em"} />
       </a>
       <a
         href="#accessibility"
@@ -42,7 +42,7 @@ const Nav = () => {
         className={activeNav === "#accessibility" ? "active" : ""}
         aria-label="accessibility icon"
       >
-        <MdOutlineAccessibility />
+        <MdOutlineAccessibility size={"2em"} />
       </a>
       <a
         href="#projects"
@@ -50,7 +50,7 @@ const Nav = () => {
         className={activeNav === "#projects" ? "active" : ""}
         aria-label="project icon"
       >
-        <GrProjects />
+        <GrProjects size={"2em"} />
       </a>
       <a
         href="#contact"
@@ -58,7 +58,7 @@ const Nav = () => {
         className={activeNav === "#contact" ? "active" : ""}
         aria-label="contact icon"
       >
-        <MdOutlineContactMail />
+        <MdOutlineContactMail size={"2em"} />
       </a>
     </nav>
   );

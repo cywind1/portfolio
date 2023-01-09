@@ -8,10 +8,17 @@
   transition: var(--transition);
 } */
 
+/*ref = .acc-container*/
+.pro-container {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 3rem;
+}
+/* 
 .pro-container {
   padding: var(--l);
-  width: 80%;
-}
+  width: 50%;
+} */
 
 /* display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -22,7 +29,7 @@
   background-color: var(--blue);
   padding: 2rem;
   border-radius: 2rem;
-  border: 1px solid var(--ligherer);
+  border: 1px solid var(--lighterer);
   transition: var(--transition);
 }
 

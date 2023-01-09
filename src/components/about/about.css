@@ -1,8 +1,9 @@
 .about_container {
   /* display: grid; */
   /* grid-template-columns: 35% 50%; */
-  gap: 10%;
-  padding: 20px;
+  gap: 20%;
+  /* padding: Height Width*/
+  padding: 50px 150px;
 }
 
 .about_me {
@@ -18,7 +19,7 @@
 .img_about_me {
   border-radius: 2rem;
   overflow: hidden;
-  max-width: 300px;
+  max-width: 400px;
   transform: rotate(10deg);
 }
 
@@ -27,9 +28,12 @@
 }
 
 .about_cards {
+  padding-top: 30px;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 2rem;
+  min-width: 200px;
+  max-width: 400px;
 }
 
 .about_card {
@@ -64,7 +68,7 @@
 
   /* TODO: desktop space */
   .about_cards {
-    grid-template-rows: 1fr auto;
+    grid-template-rows: repeat(3, 1fr);
     margin-right: 20px;
   }
 }

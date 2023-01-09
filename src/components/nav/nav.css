@@ -1,6 +1,7 @@
 nav {
   position: sticky;
   top: 0;
+  margin: 0;
   float: right;
   background: var(--lighterBlue);
   width: max-content;
@@ -12,14 +13,19 @@ nav {
 }
 
 nav a {
+  top: 0;
   padding: var(--xxxs);
+  padding-top: var(--xs);
 }
 
 nav a:hover {
+  top: 0;
   background: var(--lighterer);
 }
 
 nav a.active {
+  /* padding-bottom: 2px;
+  height: max-content; */
   background: var(--lighter);
   border-radius: var(--xxxs);
 }
