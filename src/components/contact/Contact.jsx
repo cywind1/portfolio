@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const form = useRef();
@@ -11,14 +11,15 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_ypj0v2o",
-        "template_gvbarb3",
+        "service_piwn1xp",
+        "template_6amffwe",
         form.current,
-        "fqMDNjNDbnfyT5Gen"
+        "n3GHMnoyalLQxrTwx"
       )
       .then(
         (result) => {
           console.log(result.text);
+          console.log("Message sent");
         },
         (error) => {
           console.log(error.text);
@@ -49,20 +50,20 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
-            name="name"
+            name="user_name"
             placeholder="Your Full Name"
             aria-label="name"
             required
           />
           <input
             type="email"
-            name="email"
+            name="user_email"
             placeholder="Your Email"
             aria-label="email"
             required
           />
           <textarea
-            name="message"
+            name="user_message"
             rows="7"
             placeholder="Your Message"
             aria-label="message"
