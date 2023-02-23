@@ -20,9 +20,13 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Message sent");
+          alert(
+            "Contact form is successfully sent, thank you for your feedback!"
+          );
         },
         (error) => {
           console.log(error.text);
+          alert("Failed to send your message, please try again.");
         }
       );
   };
