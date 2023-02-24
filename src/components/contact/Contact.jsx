@@ -31,6 +31,8 @@ const Contact = () => {
           alert.show("Failed to send your message, please try again.");
         }
       );
+    // clear input after form submitted
+    form.current.reset();
   };
   return (
     <section id="contact">
