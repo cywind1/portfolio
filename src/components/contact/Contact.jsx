@@ -43,14 +43,22 @@ const Contact = () => {
           <div className="contact-card">
             <AiOutlineMail className="contact-icon" />
             <h3>Email</h3>
-            <a href="mailto:ching_ying.chan@smail.th-koeln.de" target="_blank">
+            <a
+              href="mailto:ching_ying.chan@smail.th-koeln.de"
+              target="_blank "
+              rel="noreferrer"
+            >
               ching_ying.chan@smail.th-koeln.de
             </a>
           </div>
           <div className="contact-card">
             <AiFillGithub className="contact-icon" />
             <h3>Github</h3>
-            <a href="https://github.com/cywind1" target="_blank">
+            <a
+              href="https://github.com/cywind1"
+              target="_blank"
+              rel="noreferrer"
+            >
               https://github.com/cywind1
             </a>
           </div>
