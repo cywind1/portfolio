@@ -32,7 +32,7 @@ const Contact = () => {
         }
       );
     // clear input after form submitted
-    form.current.reset();
+    // form.current.reset();
   };
   return (
     <section id="contact">
