@@ -3,11 +3,9 @@ import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import emailjs from "@emailjs/browser";
-import { useAlert } from "react-alert";
 
 const Contact = () => {
   const form = useRef();
-  const alert = useAlert();
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,13 +20,13 @@ const Contact = () => {
         (result) => {
           console.log(result.text);
           console.log("Message sent");
-          alert.show(
+          alert(
             "Contact form is successfully sent, thank you for your feedback!"
           );
         },
         (error) => {
           console.log(error.text);
-          alert.show("Failed to send your message, please try again.");
+          alert("Failed to send your message, please try again.");
         }
       );
     // clear input after form submitted
