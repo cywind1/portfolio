@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer-container">
       <p>
         <AiOutlineCopyrightCircle className="footer-icon" />
-        2022 Susie Chan All Rights Reserved
+        2025 Susie Chan All Rights Reserved
       </p>
     </footer>
   );
