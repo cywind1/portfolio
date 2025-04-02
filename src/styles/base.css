@@ -3,7 +3,6 @@
 * {
   margin: 0;
   border: 0;
-  outline: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
@@ -91,6 +90,21 @@ a:hover {
 btn:hover {
   background-color: var(--lightestBlue);
   color: var(--darkBlue);
+}
+
+/* keyboard focus */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid var(--focus-red);
+    outline-offset: 2px;
+}
+
+/* Remove default browser focus */
+button, a, input, textarea {
+    outline: none;
+    box-shadow: none; /* Remove focus shadow */
 }
 
 img {
