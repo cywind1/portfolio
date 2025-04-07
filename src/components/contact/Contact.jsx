@@ -45,11 +45,11 @@ const Contact = () => {
             <AiOutlineMail className="contact-icon" />
             <h3>Email</h3>
             <a
-              href="mailto:ching_ying.chan@smail.th-koeln.de"
+              href="mailto:chingautumn@gmail.com"
               target="_blank "
               rel="noreferrer"
             >
-              ching_ying.chan@smail.th-koeln.de
+             chingautumn@gmail.com
             </a>
           </div>
           <div className="contact-card">
