@@ -13,7 +13,7 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <a href="#about" className="scroll_down">
-          Scroll Down
+          Skip to Content
         </a>
         <div className="box">
           <img src={selfie} alt="profile pic" />
