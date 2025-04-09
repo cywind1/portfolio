@@ -10,33 +10,37 @@ const Accessibility = () => {
         <div className="container acc-container">
           <article className ='accessibility'>
             <div className ='acc-head' >
-              <h3>Checklist</h3>
+             <h3>Practical Working Experience</h3>
             </div>
             <ul className='acc-list'>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p> Headings </p>
+              <p> EN 301 549 </p>
               </li>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p> Text </p>
+               <p> BFSG </p>
               </li>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p> Images </p>
+              <p> WCAG </p>
               </li>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p>  Forms </p>
+              <p> BITV</p>
               </li>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p> Page Navigation </p>
+              <p> ARIA </p>
               </li>
               <li>
                 <BsCheckCircle className='acc-list-icon'/> 
-                <p> Links </p>
+                <p> NVDA </p>
               </li>
+              <li>
+               <BsCheckCircle className='acc-list-icon' />
+               <p> JAWS </p>
+               </li>
             </ul>
           </article>
         </div>
