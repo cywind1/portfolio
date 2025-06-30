@@ -6,7 +6,7 @@ const HeaderSocials = () => {
   return (
     <div className="header_socials">
       <a
-        href="https://www.linkedin.com/in/ching-chan-24b696148/"
+        href="https://www.linkedin.com/in/susie-ching-ying-chan-24b696148/"
         role="img"
         aria-label="Linkedin icon"
       >
