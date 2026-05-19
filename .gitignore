@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+# Accessibility testing 
+a11y-tests/venv/
+a11y-tests/__pycache__/
+a11y-tests/*.pyc
+
 # production
 /build
 
